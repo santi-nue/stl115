@@ -2,5 +2,5 @@ from subprocess import Popen
 import os
 
 def load_jupyter_server_extension(nbapp):
-    """serve the n8n app"""
-    Popen(["copyparty"])
+    """serve the app"""
+    Popen(["copyparty", "--rp-loc /home/jovylan"])
